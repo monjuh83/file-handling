@@ -1,0 +1,54 @@
+<?php
+
+?>
+<html>
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="design.css" type="text/css">
+</head>
+    
+<body>
+    <h1>Basic Information</h1>
+   
+    <form>
+        <label>First Name</label>
+        
+        <input type="text" placeholder="first name" required>
+        <br>
+        <br>
+        <label>Last Name</label>
+        <input type="text" placeholder="last name" required>
+        <br>
+        <br>
+        <label>Gender  </label>
+        <br>
+        <input type="radio" name="gender" checked><label>Male</label>
+        <input type="radio" name="gender"><label>Female</label>
+        <br>
+        <br>
+        <label>Recovery Email Address</label>
+        <input type="email" placeholder="Email" required>
+        <br>
+        <br>
+      
+    </form>
+    
+    
+    <h1>User AccountInformation:</h1>
+    <form>
+        <br>
+        <label>User Name</label>
+        <input type="text" placeholder="first name" required>
+        <br>
+        <br>
+        <label>password</label>
+        <input type="password" placeholder="Passwprd" required>
+        <br>
+        <br>
+        
+        
+ 
+    </form>
+       
+</body>
+</html> 
